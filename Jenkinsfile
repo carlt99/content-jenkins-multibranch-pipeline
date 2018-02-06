@@ -29,7 +29,7 @@ pipeline {
       }
       steps {
         echo "Stashing Local Changes"
-        sh "git stash"
+        sh "git stash "
         echo "Checking Out Development"
         sh 'git checkout development'
         sh 'git pull origin'
